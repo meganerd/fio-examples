@@ -1,0 +1,9 @@
+[random-write]
+rw=randwrite
+size=5G
+direct=0
+numjobs=5
+group_reporting
+name=random-write-buffered
+bs=64k
+runtime=10

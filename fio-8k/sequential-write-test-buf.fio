@@ -1,0 +1,10 @@
+[sequential-write]
+rw=write
+size=1G
+direct=0
+directory=/mnt/fio-test
+numjobs=5
+group_reporting
+name=sequential-write-buffered
+bs=8k
+runtime=10

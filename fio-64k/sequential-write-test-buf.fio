@@ -1,0 +1,9 @@
+[sequential-write]
+rw=write
+size=5G
+direct=0
+numjobs=1
+group_reporting
+name=sequential-write-buffered
+bs=64k
+runtime=10

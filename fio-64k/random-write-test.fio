@@ -1,0 +1,9 @@
+[random-write]
+rw=randwrite
+size=5G
+direct=1
+numjobs=5
+group_reporting
+name=random-write-direct
+bs=64k
+runtime=10

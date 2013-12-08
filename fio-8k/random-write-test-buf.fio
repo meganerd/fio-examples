@@ -1,0 +1,10 @@
+[random-write]
+rw=randwrite
+size=1G
+direct=0
+directory=/mnt/fio-test
+numjobs=5
+group_reporting
+name=random-write-buffered
+bs=8k
+runtime=10

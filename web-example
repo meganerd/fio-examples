@@ -1,0 +1,14 @@
+[iometer]  
+bssplit=8k/100  
+rw=randrw  
+rwmixread=50  
+direct=1  
+size=14g  
+ioengine=libaio  
+# IOMeter defines the server loads as the following:  
+# iodepth=1     Linear  
+# iodepth=4     Very Light  
+# iodepth=8     Light  
+# iodepth=64    Moderate  
+# iodepth=256   Heavy  
+iodepth=32  
