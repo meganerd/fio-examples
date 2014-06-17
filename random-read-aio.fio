@@ -1,0 +1,9 @@
+; random read of 256mb of data
+
+[random-read]
+rw=randread
+size=256m
+ioengine=libaio
+iodepth=8
+direct=1
+invalidate=1

@@ -1,0 +1,5 @@
+; random read of 256mb of data
+
+[random-read]
+rw=randread
+size=256m
