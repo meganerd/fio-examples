@@ -1,8 +1,8 @@
-; random read of 256mb of data
+; random read 
 
 [random-read]
 rw=randread
-size=256m
+size=2048m
 ioengine=libaio
 iodepth=8
 direct=1
