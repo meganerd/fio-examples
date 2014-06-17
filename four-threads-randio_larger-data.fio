@@ -2,7 +2,7 @@
 
 [global]
 rw=randread
-size=256m
+size=2048m
 ioengine=libaio
 iodepth=4
 invalidate=1
@@ -28,4 +28,4 @@ thinktime=5
 rw=randrw
 iodepth=16
 thinktime=40
-size=32m
+size=320m
