@@ -11,5 +11,5 @@ Once difference is that I have commented out the path definition, which means th
 Give the configuration file as a parameter as well as the section to run.
 
 ```Bash
-fio –section=seq-read fio_config.cfg
+fio -section=seq-read /path/to/fio-examples/DB_Simulate.fio
 ```
