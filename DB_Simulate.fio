@@ -4,7 +4,7 @@
  # Size if the the I/O
  size=8g
  # Directory where the test file will be created
- directory=/utest
+ #directory=/utest
  # Diables posix_fadvise - predeclare an access pattern for file data
  fadvise_hint=0
  # Block size
@@ -26,7 +26,7 @@
 [seq-write]
  rw=write
  size=8g
- directory=/utest
+ #directory=/utest
  fadvise_hint=0
  blocksize=8k
  direct=1
@@ -40,7 +40,7 @@
  # Each process allocates one file, therefore to have 8G the size should be set to 1G with 8 processes
  rw=randread
  size=1g
- directory=/utest
+ #directory=/utest
  fadvise_hint=0
  blocksize=8k
  direct=1
@@ -54,7 +54,7 @@
  # Each process allocates one file, therefore to have 8G the size should be set to 1G with 8 processes
  rw=randwrite
  size=1g
- directory=/utest
+ #directory=/utest
  fadvise_hint=0
  blocksize=8k
  direct=1
@@ -69,7 +69,7 @@
  rw=rw
  rwmixread=80
  size=1g
- directory=/utest
+ #directory=/utest
  fadvise_hint=0
  blocksize=8k
  direct=1
