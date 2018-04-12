@@ -1,7 +1,7 @@
 DB_Simulate README
 ============
 
-# H1 Basic usage
+# Basic usage
 
 This example was based on [the example from this page.](https://blog.dbi-services.com/flexible-io-simulating-database-like-io-activity-without-an-installed-database/)
 
